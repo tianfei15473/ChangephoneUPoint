@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bottom_border"
+            android:padding="@dimen/apk_field_padding"
+            android:text="@string/apk_basicinfo" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/apk_field_padding" >
+
+            <TextView
+                android:layout_width="@dimen/apk_label_width"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/apk_field_padding"
+                android:text="@string/apk_name" />
+
+            <TextView
+                android:id="@+id/apk_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:inputType="none" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/apk_field_padding"
+            android:paddingLeft="@dimen/apk_field_padding" >
+
+            <TextView
+                android:layout_width="@dimen/apk_label_width"
+                android:layout_height="wrap_content"
+                android:text="@string/apk_packagename" />
+
+            <TextView
+                android:id="@+id/apk_package_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:inputType="none" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bottom_border"
+            android:padding="@dimen/apk_field_padding"
+            android:text="@string/apk_remainset" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/apk_field_padding"
+            android:paddingLeft="@dimen/apk_field_padding" >
+
+            <TextView
+                android:layout_width="@dimen/apk_label_width"
+                android:layout_height="wrap_content"
+                android:text="@string/apk_max_total" />
+
+            <EditText
+                android:id="@+id/apk_max_total"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/apk_field_padding"
+            android:paddingLeft="@dimen/apk_field_padding" >
+
+            <TextView
+                android:layout_width="@dimen/apk_label_width"
+                android:layout_height="wrap_content"
+                android:text="@string/apk_uninstall_total" />
+
+            <EditText
+                android:id="@+id/apk_uninstall_total"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/apk_field_padding"
+            android:paddingLeft="@dimen/apk_field_padding" >
+
+            <TextView
+                android:layout_width="@dimen/apk_label_width"
+                android:layout_height="wrap_content"
+                android:text="@string/apk_hold_time" />
+
+            <EditText
+                android:id="@+id/apk_hold_time"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/apk_day_remain_ratio_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/apk_field_padding"
+            android:paddingLeft="@dimen/apk_field_padding" >
+
+            <TextView
+                android:layout_width="@dimen/apk_label_width"
+                android:layout_height="wrap_content"
+                android:text="@string/apk_day_remain_ratio" />
+
+            <EditText
+                android:id="@+id/apk_day_remain_ratio"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/apk_day_layout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/apk_field_padding"
+            android:paddingLeft="@dimen/apk_field_padding" >
+
+            <TextView
+                android:layout_width="@dimen/apk_label_width"
+                android:layout_height="wrap_content"
+                android:text="@string/apk_1day_remain" />
+
+            <EditText
+                android:id="@+id/apk_1day_remain"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/apk_day_layout3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/apk_field_padding"
+            android:paddingLeft="@dimen/apk_field_padding" >
+
+            <TextView
+                android:layout_width="@dimen/apk_label_width"
+                android:layout_height="wrap_content"
+                android:text="@string/apk_3day_remain" />
+
+            <EditText
+                android:id="@+id/apk_3day_remain"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/apk_day_layout7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/apk_field_padding"
+            android:paddingLeft="@dimen/apk_field_padding" >
+
+            <TextView
+                android:layout_width="@dimen/apk_label_width"
+                android:layout_height="wrap_content"
+                android:text="@string/apk_7day_remain" />
+
+            <EditText
+                android:id="@+id/apk_7day_remain"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/apk_day_layout14"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/apk_field_padding"
+            android:paddingLeft="@dimen/apk_field_padding" >
+
+            <TextView
+                android:layout_width="@dimen/apk_label_width"
+                android:layout_height="wrap_content"
+                android:text="@string/apk_14day_remain" />
+
+            <EditText
+                android:id="@+id/apk_14day_remain"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+        </LinearLayout>
+
+        
+        <LinearLayout
+            android:id="@+id/start_remain_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/apk_field_padding"
+            android:paddingLeft="@dimen/apk_field_padding" >
+
+            <TextView
+                android:layout_width="@dimen/apk_label_width"
+                android:layout_height="wrap_content"
+                android:text="从那天留存开始" />
+
+            <EditText
+                android:id="@+id/start_remain"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/isremain_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/apk_field_padding"
+            android:paddingLeft="@dimen/apk_field_padding" >
+
+            <TextView
+                android:layout_width="@dimen/apk_label_width"
+                android:layout_height="wrap_content"
+                android:text="是否需要刷上一天留存" />
+
+            <EditText
+                android:id="@+id/isremain_et"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="0不需要 1需要"
+                android:inputType="number" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/apk_field_padding"
+            android:paddingLeft="@dimen/apk_field_padding" >
+
+            <Button
+                android:id="@+id/apk_control_button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/apk_start_app" />
+
+            <Button
+                android:id="@+id/apk_control_button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/apk_save_app" />
+
+            <Button
+                android:id="@+id/apk_control_button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/apk_test_app" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

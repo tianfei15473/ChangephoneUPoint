@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="apk_label_width">120.0dip</dimen>
+    <dimen name="apk_field_padding">2.0dip</dimen>
+</resources>

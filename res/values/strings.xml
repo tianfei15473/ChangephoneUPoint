@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">设置</string>
+    <string name="app_name">U点</string>
+    <string name="info">Ensure that Android Beam is enabled by turning it on in the system Settings (select the setting icon above), then place this device up against another Android device that supports Android Beam to send a message.</string>
+    <string name="menu_settings">Android Beam settings</string>
+    <string name="ime_name">远程输入法</string>
+    <string name="word_separators">" .,;:!?
+()[]*&amp;@{}/&lt;>_+=|"</string>
+    <string name="label_go_key">确定</string>
+    <string name="label_next_key">下一步</string>
+    <string name="label_send_key">发送</string>
+    <string name="label_subtype_generic">%s</string>
+    <string name="label_subtype_en_GB">English (GB)</string>
+    <string name="settings_name">设置远程输入法</string>
+    <string name="language_selection_title">Input languages</string>
+    <string name="select_language">选择输入语言</string>
+    <string name="general_category">General</string>
+    <string name="button0_label">更新</string>
+    <string name="button1_label">启动</string>
+    <string name="button2_label">停止</string>
+    <string name="button3_label">配置</string>
+    <string name="button4_label">系统更新</string>
+    <string name="button_enter">确定</string>
+    <string name="alert_title">提示</string>
+    <string name="alert_server_stop">服务停止</string>
+    <string name="apk_icon">icon</string>
+    <string name="apk_label_width">100dp</string>
+    <string name="apk_basicinfo">基本信息</string>
+    <string name="apk_remainset">留存设定</string>
+    <string name="apk_start_app">启动</string>
+    <string name="apk_stop_app">停止</string>
+    <string name="apk_save_app">保存</string>
+    <string name="apk_test_app">测试</string>
+    <string name="apk_max_total">激活量</string>
+    <string name="apk_uninstall_total">卸载量</string>
+    <string name="apk_day_remain_ratio">留存占比（%）</string>
+    <string name="apk_hold_time">持续时间(毫秒)</string>
+    <string name="apk_1day_remain">次日留存（%）</string>
+    <string name="apk_3day_remain">3日留存（%）</string>
+    <string name="apk_7day_remain">周留存（%）</string>
+    <string name="apk_14day_remain">双周留存（%）</string>
+    <string name="apk_name">应用名</string>
+    <string name="apk_packagename">应用包</string>
+    <string name="xposed_value">一款优质的鼠标自动点击软件</string>
+</resources>

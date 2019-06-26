@@ -16,8 +16,8 @@
 
 ## 讲解如果运用安装改项目
 下载相应配置文件，请去我的百度网盘下载
-https://pan.baidu.com/s/1q0uo-ZiHzjRSeZNzsYmq5g
-提取码：cosu
+链接：https://pan.baidu.com/s/1pyQOWu9SNmgB7WG4uLHJHA 
+提取码：yf50 
 
 * 准备一台中兴 V5s手机，并且ROOT，如果没有ROOT，请自行去软件市场下载一个【360超级ROOT】或者【kingroot】10秒搞定root
 * 将百度网盘里面的xposed.installer.apk安装到手机上，安装完成后，打开Xposed Installer-->点击 框架-->点击 安装/更新，然后按照提示重启手机
